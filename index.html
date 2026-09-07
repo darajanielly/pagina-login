@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Login</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ 
+  <div class="campos"> 
+    <div class="text">
+        <h1> Login </h1><br>
+        <p> Insira seus dados abaixo </p><br>
+    </div>
+
+  <form id="formulario">
+  <label for="email"> Email </label><br>
+  <input type="email" id="email" placeholder="exemplo@gmail.com">
+<br><br>
+  <label for="senha"> Senha </label><br>
+    
+    <div class="senha-container"> 
+    <input type="password" id="senha" placeholder="Digite sua senha"> 
+    <button type="button" id="olho"> 
+    <svg viewBox="0 0 24 24" aria-hidden="true">
+  <path d="M1.5 12s4-7 10.5-7 10.5 7 10.5 7-4 7-10.5 7S1.5 12 1.5 12z"
+        fill="none"
+        stroke="white"
+        stroke-width="1.8"/>
+  <circle cx="12" cy="12" r="3.5"
+          fill="white"/>
+  <circle cx="12" cy="12" r="1.5"
+          fill="#30303d"/>
+    </svg>
+    </button>
+    </div>
+
+<br>
+    
+    <div class="botao"> 
+    <button id="botao"> Fazer Login </button>
+  </div>
+    
+</form>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

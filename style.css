@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+
+}
+
+body {
+    min-height: 100vh;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  background: #0f1016;
+}
+
+.campos {
+  width: 450px;
+  height: 400px;
+  padding: 50px 70px 70px;
+  border-radius: 15px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 3); 
+  
+  background: #181a24 ;
+  color:white;
+  
+}
+
+input {
+  width: 100%;
+  padding: 14px;
+  height: 45px;
+
+  border: 2px solid #30303d;
+  border-radius: 15px;
+  background: #30303d;
+  color: white;
+}
+
+#botao {
+  width: 100%;
+  padding:14px;
+  margin-bottom: 10px;
+  border-radius: 15px;
+  
+  background: #1a1a1a;
+  color:white;
+}
+
+#botao{
+  background: #002d70;
+  color: white;
+
+  width: 100%;
+  padding:14px;
+  border-radius: 15px;
+  transition: 0.2s;
+}
+
+#botao:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 10px rgba(33, 150, 243, 0.25);
+}
+
+#botao:active {
+  transform:scale(0.96);
+}
+
+.text {
+  text-align: center;
+  
+}
+
+.text h1 {
+  font-size: 32px;
+}
+
+.text p {
+  font-size: 16px;
+}
+
+.senha-container {
+  position: relative;
+}
+
+#olho {
+  position: absolute;
+  right: 5px;
+  
+  width: 25px;
+  height: 16px;
+  top: 10px;
+
+  background: transparent;
+  border: none;
+
+}
